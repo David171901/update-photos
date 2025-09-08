@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, type ChangeEvent } from "react";
+import { useState, useRef, useEffect, type ChangeEvent } from "react";
 
 function App() {
   const [selectedFiles, setSelectedFiles] = useState<File[]>([]);
